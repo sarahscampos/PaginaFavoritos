@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    min-height: 100%;
+    background-image: url(../assets/background.jpg);
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+
+body {
+    box-sizing: border-box;
+}
+
+.cabecalho {
+    background-color: #E50914;
+    padding: 2rem;
+}
+
+.cabecalho__links {
+    display: flex;
+    justify-content: space-between;
+}
+.cabecalho__links__onelink {
+    font-size: 1.5rem;
+    color: #000000;
+    text-decoration: none;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 400;   
+}
+
+.cabecalho__links__onelink:hover {
+    transform: scale(1.1);
+}
+.cabecalho__links__main {
+    font-size: 1.8rem;
+    text-decoration: none;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 400;
+    color: white
+}
+
+.cabecalho__links__secoes {
+    display: flex;
+    gap: 2rem;
+}
+
+
+
+.conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-direction: column;
+    margin: 10rem 0 5rem;
+    gap: 2rem; 
+}
+
+#criticapag {
+    margin: 3rem 0 2rem;
+}
+.conteudo__titulo {
+    color: #E50914;
+    font-size: 3rem;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 400;
+}
+
+.conteudo__paragrafo {
+    color: white;
+    font-size: 2rem;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 400;    
+}
+
+.rodape {
+    display: flex;
+    background-color: #000000;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 2.5rem;
+    position: fixed;
+    bottom: 0;
+    
+}
+
+.rodape__credito {
+    color: white;
+    font-size: 1.4rem;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 400; 
+}
+
+#alura {
+    text-decoration: none;
+}
+#alura:hover {
+    text-decoration: none;
+    color: #2087ED;
+
+   
+}
+
+
+/*PAGINA FILMES*/
+
+.filmes {
+    display: flex;
+    justify-content: center;
+}
+.container {
+    
+    gap: 3rem;
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 5rem 0 5rem;
+    justify-content: left;
+    
+}
+
+/*PAGINA CRITICAS*/
+
+.conteudo__critica {
+    display: flex;
+    margin: 0 2rem 3rem;
+    gap: 10rem;
+    align-items: center;
+}
+
+.conteudo__critica__links {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.critica__link {
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 400
+}
+
+.critica__link:hover {
+    color: #f1d900;
+    transform: scale(1.1);    
+}
+
+.imagem-critica {
+    border: 2px solid #f1d900;
+}
